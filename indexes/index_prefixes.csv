@@ -1,0 +1,26 @@
+Prefix, Full Name, Definition, Examples
+acc,Accounting,Network accounting data,RADIUS Accounting
+app,,,
+auth,Authentication,"Authentication (success, failure) events",
+authz,Authorization,"Access to resources authorization (allowed, blocked)",
+audit,Audit,"Object and system access events (creation, modification, deletion, etc.)",
+av,Antivirus / Malware,,
+dlp,Data Leak Prevention,Events from DLP systems,
+dns,DNS Queries,DNS Queries and responses,"Query/Response: A, AAA, TXT"
+dhcp,DHCP lease,DHCP lease events,"DHCP IP Request, offer"
+fw,Firewall,"ISO/OSI layer 3 connectivity (allow, drop, teardown) events generated based on firewall rules and connection tracking",Connection or packet accepted/denied/teardown
+ips,Intrusion Prevention System (network),Security events based on rules and heuristics applied to network data,
+mail,e-mail,E-mail content/message tracking,
+op,Operational,Operational events,"Updates, restarts"
+os,Operating System,Events from operating system not matching other categories,
+perf,Performance,Performance related events and statistics,
+proxy,Web proxy,"Web proxy events for web protocols (HTTP, FTP, etc.)",
+rproxy,Reverse web proxy,"Reverse Proxy/Load Balancer for web protocols (HTTP, FTP, etc.)",
+sandbox,File Sandbox,File analysis in sandbox system events,
+sec,Security,"Alerts from security software and devices, based on internal detection capabilities, rules, etc. not matching other seciruty categories","malware, port scan, spoofing"
+vpn,VPN,VPN tunnel and access events,
+waf,Web Application Firewall,Access to web applications with added security context,
+wifi,Wireless iee 802.11 session,,
+,,,
+default,Default,All events that were not assigned to other indexes,
+misc,Miscellaneous,Events not matching other prefixes,
